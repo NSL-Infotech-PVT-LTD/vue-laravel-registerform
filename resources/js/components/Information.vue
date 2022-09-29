@@ -97,7 +97,6 @@
         <div class="d-grid">
             <button class="btn btn-success" @click="advanceStep">
                 <span v-if="max_step === 3">Save</span>
-                <!-- <span v-if="current_step === 2">Preview</span> -->
                 <span v-else>Next</span>
             </button>
         </div>
